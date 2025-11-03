@@ -116,7 +116,6 @@ class MainActivity : AppCompatActivity(), OnUserLongClickListener, MultipleMessa
         Log.d("Dummy Message","Dummy Message");
         Log.d("Dummy Message","Dummy Message");
 
-
         loading = findViewById<LinearLayout>(R.id.progressBar_main)
         loading.visibility = View.VISIBLE
 
