@@ -102,10 +102,10 @@ class MainActivity : AppCompatActivity(), OnUserLongClickListener, MultipleMessa
 
         gestureDetector = GestureDetectorCompat(this, SwipeGestureListener())
 
-        swipeContainer.setOnTouchListener { _, event ->
-            gestureDetector.onTouchEvent(event)
-            true
-        }
+//        swipeContainer.setOnTouchListener { _, event ->
+//            gestureDetector.onTouchEvent(event)
+//            true
+//        }
 
         loading = findViewById<LinearLayout>(R.id.progressBar_main)
         loading.visibility = View.VISIBLE
