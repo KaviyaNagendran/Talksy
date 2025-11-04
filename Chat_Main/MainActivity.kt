@@ -152,6 +152,9 @@ class MainActivity : AppCompatActivity(), OnUserLongClickListener, MultipleMessa
         Log.d("MainActivity",viewModel.IsContacts.value.toString())
         Log.d("MainActivity",viewModel.IsMessages.value.toString())
         Log.d("MainActivity",viewModel.IsUnread.value.toString())
+        Log.d("MainActivity",viewModel.IsContacts.value.toString())
+        Log.d("MainActivity",viewModel.IsMessages.value.toString())
+        Log.d("MainActivity",viewModel.IsUnread.value.toString())
 
         if(viewModel.IsContacts.value == true &&
             viewModel.IsMessages.value == true &&
